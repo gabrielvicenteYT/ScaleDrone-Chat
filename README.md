@@ -1,3 +1,3 @@
-# WebRTC Chat Tutorial
+# ScaleDrone Chat
 
-This is the code for the tutorial found [here](https://www.scaledrone.com/blog/posts/webrtc-chat-tutorial).
+I DIDN'T ADD ANYTHING! THIS WAS JUST FOR COMMUNICATION.
