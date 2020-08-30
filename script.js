@@ -10,7 +10,7 @@ function randomEmoji() {
 }
 
 const emoji = randomEmoji();
-const name = prompt("What's your name?");
+const name = prompt("Please insert your name.");
 
 // Generate random chat hash if needed
 if (!location.hash) {
@@ -51,7 +51,7 @@ drone.on('open', error => {
   // connected to the room (including us). Signaling server is ready.
   room.on('members', members => {
     if (members.length >= 3) {
-      return alert('The room is full');
+      return alert('Room already has 2 people!');
     }
     // If we are the second user to connect to the room we will be creating the offer
     const isOfferer = members.length === 2;
